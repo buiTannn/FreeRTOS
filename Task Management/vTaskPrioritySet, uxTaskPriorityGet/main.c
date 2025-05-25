@@ -5,7 +5,7 @@
 TaskHandle_t xTaskHandle1;
 TaskHandle_t xTaskHandle2;
 
-// H‡m c?a Task 1
+// H√†m c?a Task 1
 void vTask1(void *pvParameters) {
     while (1) {
         printf("Task 1 is running\n");
@@ -13,7 +13,7 @@ void vTask1(void *pvParameters) {
     }
 }
 
-// H‡m c?a Task 2
+// H√†m cua Task 2
 void vTask2(void *pvParameters) {
     while (1) {
         printf("Task 2 is running\n");
@@ -21,7 +21,7 @@ void vTask2(void *pvParameters) {
     }
 }
 
-// H‡m setup d? t?o v‡ di?u ch?nh c·c task
+// H√†m setup d? t?o v√† di?u ch?nh c√°c task
 void app_main(void) {
     xTaskCreate(vTask1, "Task 1", 2048, NULL, 2, &xTaskHandle1);
 
