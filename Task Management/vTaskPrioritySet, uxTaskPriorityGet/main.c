@@ -5,7 +5,7 @@
 TaskHandle_t xTaskHandle1;
 TaskHandle_t xTaskHandle2;
 
-// Hàm c?a Task 1
+// Hàm cua Task 1
 void vTask1(void *pvParameters) {
     while (1) {
         printf("Task 1 is running\n");
