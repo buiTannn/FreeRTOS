@@ -1,5 +1,4 @@
-# Arduino Smart Monitor System
-
+# ESP32
 ## Mô tả
 FRAMEWORK : ARDUINO 
 Dự án này sử dụng bo mạch ESP32 để đọc và hiển thị dữ liệu từ các cảm biến bao gồm:
